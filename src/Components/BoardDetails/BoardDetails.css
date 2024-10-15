@@ -1,0 +1,19 @@
+.board-details-list{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    background-color: var(--grey3);
+}
+
+@media (max-width: 750px){
+    .board-details-list{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: var(--grey3);
+    }
+}
+
